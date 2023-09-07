@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+input[type="text"]:focus,
+select:focus {
+    border-color: #555;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #ccc; /* Grey background */
+    color: #000; /* Black text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #999; /* Darker grey on hover */
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode .container {
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode label,
+.dark-mode input[type="text"],
+.dark-mode select {
+    color: #fff;
+    background-color: #555;
+    border-color: #444;
+}
+
+.dark-mode input[type="text"]:focus,
+.dark-mode select:focus {
+    border-color: #fff;
+}
+
+.dark-mode input[type="submit"] {
+    background-color: #555;
+}
+
+.dark-mode input[type="submit"]:hover {
+    background-color: #444;
+}

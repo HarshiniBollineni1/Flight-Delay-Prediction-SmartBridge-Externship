@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flight Delay Prediction Prediction</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    
+</head>
+<body>
+    
+     <h1>Flight Delay Prediction</h1>
+    
+    <form action="/prediction" method="post">
+        <p>Flight Number</p>
+        <p><input type="text" name="name"/></p>
+        
+        <p>Month</p>
+        <p><input type="text" name="month"/></p>
+        
+        <p>Day of Month</p>
+        <p><input type="text" name="dayofmonth"/></p>
+        
+        <p>Day of Week</p>
+        <p><input type="text" name="dayofweek"/></p>
+        
+        <label for="origin">Origin</label>
+        <select name="origin">
+        <option value="ATL">ATL</option>
+        <option value="DTW">DTW</option>
+        <option value="SEA">SEA</option>
+        <option value="MSP">MSP</option>
+        <option value="JFK">JFK</option>
+        </select> 
+        <br></br>
+        
+        <label for="destination">Destination</label>
+        <select name="destination">
+        <option value="ATL">ATL</option>
+        <option value="DTW">DTW</option>
+        <option value="SEA">SEA</option>
+        <option value="MSP">MSP</option>
+        <option value="JFK">JFK</option>
+        </select>
+        
+        <p>Scheduled Depature Time</p>
+        <p><input type="text" name="dept"/></p>
+        <p>Scheduled Arrival Time</p>
+        <p><input type="text" name="arrtime"/></p>
+        <p>Actual Depature Time</p>
+        <p><input type="text" name="actdept"/></p>
+        
+        <p><input type="submit" values="Submit"/></p>
+        </form>
+        
+   <b>{{showcase}}</b>
+    
+</body>
+</html>
