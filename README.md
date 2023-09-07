@@ -9,12 +9,5 @@ This project is designed to create a Flight Delay Prediction System using Machin
 Web page : 
 <img width="960" alt="image" src="https://github.com/HarshiniBollineni1/Flight-Delay-Prediction-SmartBridge-Externship/assets/143960116/6064fb55-2fef-401a-9ee2-141c46e54093">
 
-Prediction :
-
-<img width="272" alt="image" src="https://github.com/HarshiniBollineni1/Flight-Delay-Prediction-SmartBridge-Externship/assets/143960116/856a32b6-f91b-4c7d-9731-fbb65d24e82a">
-
-<img width="187" alt="image" src="https://github.com/HarshiniBollineni1/Flight-Delay-Prediction-SmartBridge-Externship/assets/143960116/aa1c32c3-e16c-4328-a6b2-d6eb0a645043">
-
-
 Overall, the project contributes to optimizing airline operations and enhancing the passenger experience in the aviation industry.
 
